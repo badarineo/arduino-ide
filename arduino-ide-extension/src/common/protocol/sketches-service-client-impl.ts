@@ -11,6 +11,7 @@ import { FrontendApplicationContribution } from '@theia/core/lib/browser/fronten
 import { Sketch, SketchesService } from '../../common/protocol';
 import { ConfigService } from './config-service';
 import { SketchContainer } from './sketches-service';
+import * as monaco from '@theia/monaco-editor-core';
 
 const READ_ONLY_FILES = [
   'thingProperties.h',
